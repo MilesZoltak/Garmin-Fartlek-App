@@ -1,5 +1,9 @@
 using Toybox.WatchUi;
 using Toybox.System;
+using Toybox.Timer;
+using Toybox.Lang;
+
+var seconds = 0;	//global variable to be updated every second to track time
 
 class FartlekView extends WatchUi.View {
 
@@ -7,9 +11,20 @@ class FartlekView extends WatchUi.View {
         View.initialize();
     }
 
+	//timer callback function to increment seconds var
+	function timerCallback() {
+		seconds++;
+		WatchUi.requestUpdate();
+	}
+	
     // Load your resources here
     function onLayout(dc) {
+    	//initialize the timer and set the layout
+    	var myTimer = new Timer.Timer();
+    	myTimer.start(method(:timerCallback), 1000, true);
         setLayout(Rez.Layouts.MainLayout(dc));
+        
+        
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -22,6 +37,10 @@ class FartlekView extends WatchUi.View {
 
     // Update the view
     function onUpdate(dc) {
+    	
+    	//update the timer to reflect the value of the seconds var
+    	var intervalTime = View.findDrawableById("id_IntervalTimer");
+    	intervalTime.setText(Lang.format("$1$", [miliseconds]));
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
     }
