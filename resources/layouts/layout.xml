@@ -1,18 +1,23 @@
-<layout id="MainLayout">
-	<drawable id="background_white"/>
-	<label id="id_TotalTime" x="center" y="top"
-		font="Graphics.FONT_NUMBER_MEDIUM"
-		justification="Graphics.TEXT_JUSTIFY_CENTER"
-		color="Graphics.COLOR_BLACK"
-	/>
-	<label id="id_IntervalTimer" x="center" y="center"
-		font="Graphics.FONT_NUMBER_THAI_HOT"
-		justification="Graphics.TEXT_JUSTIFY_CENTER"
-		color="Graphics.COLOR_BLACK"
-	/>
-	<label id="id_TotalDistance" x="center" y="bottom"
-		font="Graphics.FONT_NUMBER_MEDIUM"
-		justification="Graphics.TEXT_JUSTIFY_CENTER"
-		color="Graphics.COLOR_BLACK"
-	/>
-</layout>
+<resources>
+	<layout id="MainLayout">
+		<drawable id="background_white"/>
+		<label id="TotalTime" x="center" y="top"
+			font="Graphics.FONT_NUMBER_MEDIUM"
+			justification="Graphics.TEXT_JUSTIFY_CENTER"
+			color="Graphics.COLOR_BLACK"
+		/>
+		<label id="IntervalTimer" x="center" y="center"
+			font="Graphics.FONT_NUMBER_THAI_HOT"
+			justification="Graphics.TEXT_JUSTIFY_CENTER"
+			color="Graphics.COLOR_BLACK"
+		/>
+		<label id="TotalDistance" x="center" y="bottom"
+			font="Graphics.FONT_NUMBER_MEDIUM"
+			justification="Graphics.TEXT_JUSTIFY_CENTER"
+			color="Graphics.COLOR_BLACK"
+		/>
+	</layout>
+	<layout id="InputLayout">
+		
+	</layout>
+</resources>

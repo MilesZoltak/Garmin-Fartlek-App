@@ -39,8 +39,9 @@ class FartlekView extends WatchUi.View {
     function onUpdate(dc) {
     	
     	//update the timer to reflect the value of the seconds var
-    	var intervalTime = View.findDrawableById("id_IntervalTimer");
-    	intervalTime.setText(Lang.format("$1$", [miliseconds]));
+    	var totalTime = View.findDrawableById("TotalTime");
+    	totalTime.setText(Lang.format("$1$:$2$", [(seconds / 60), (seconds % 60).format("%02d")]));
+    	
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
     }
