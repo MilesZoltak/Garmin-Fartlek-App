@@ -3,19 +3,19 @@
 <pcToLineNum>
 <entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="3" lineNum="10" pc="268435456" symbol="initialize"/>
 <entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="3" lineNum="11" pc="268435460" symbol="initialize"/>
-<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="4" lineNum="15" pc="268435479" symbol="timerCallback"/>
-<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="4" lineNum="16" pc="268435483" symbol="timerCallback"/>
-<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="4" lineNum="17" pc="268435502" symbol="timerCallback"/>
-<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="5" lineNum="21" pc="268435519" symbol="onLayout"/>
-<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="5" lineNum="23" pc="268435523" symbol="onLayout"/>
-<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="5" lineNum="24" pc="268435551" symbol="onLayout"/>
-<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="5" lineNum="25" pc="268435586" symbol="onLayout"/>
-<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="6" lineNum="33" pc="268435624" symbol="onShow"/>
-<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="7" lineNum="39" pc="268435629" symbol="onUpdate"/>
-<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="7" lineNum="42" pc="268435633" symbol="onUpdate"/>
-<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="7" lineNum="43" pc="268435657" symbol="onUpdate"/>
-<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="7" lineNum="46" pc="268435753" symbol="onUpdate"/>
-<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="8" lineNum="52" pc="268435774" symbol="onHide"/>
+<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="4" lineNum="16" pc="268435479" symbol="timerCallback"/>
+<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="4" lineNum="17" pc="268435483" symbol="timerCallback"/>
+<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="4" lineNum="18" pc="268435502" symbol="timerCallback"/>
+<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="5" lineNum="22" pc="268435519" symbol="onLayout"/>
+<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="5" lineNum="24" pc="268435523" symbol="onLayout"/>
+<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="5" lineNum="25" pc="268435551" symbol="onLayout"/>
+<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="5" lineNum="26" pc="268435586" symbol="onLayout"/>
+<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="6" lineNum="34" pc="268435624" symbol="onShow"/>
+<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="7" lineNum="40" pc="268435629" symbol="onUpdate"/>
+<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="7" lineNum="43" pc="268435633" symbol="onUpdate"/>
+<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="7" lineNum="44" pc="268435657" symbol="onUpdate"/>
+<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="7" lineNum="47" pc="268435753" symbol="onUpdate"/>
+<entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekView.mc" id="8" lineNum="53" pc="268435774" symbol="onHide"/>
 <entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekApp.mc" id="10" lineNum="6" pc="268435779" symbol="initialize"/>
 <entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekApp.mc" id="10" lineNum="7" pc="268435783" symbol="initialize"/>
 <entry filename="C:\\Users\\miles\\eclipse-workspace\\Fartlek\\source\\FartlekApp.mc" id="11" lineNum="11" pc="268435802" symbol="onStart"/>
@@ -48,7 +48,7 @@
 <entry filename="Rez" id="28" lineNum="42" pc="268436456" symbol="MainLayout"/>
 <entry filename="Rez" id="28" lineNum="43" pc="268436619" symbol="MainLayout"/>
 <entry filename="Rez" id="28" lineNum="45" pc="268436759" symbol="MainLayout"/>
-<entry filename="Rez" id="29" lineNum="54" pc="268436807" symbol="InputLayout"/>
+<entry filename="Rez" id="29" lineNum="54" pc="268436807" symbol="uninitialized_MainMenu"/>
 <entry filename="Rez" id="32" lineNum="65" pc="268436820" symbol="initialize"/>
 <entry filename="Rez" id="32" lineNum="66" pc="268436824" symbol="initialize"/>
 <entry filename="Rez" id="32" lineNum="67" pc="268436842" symbol="initialize"/>
@@ -62,6 +62,7 @@
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry id="18" object="true" symbol="MainMenu"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="22" symbol="set_off"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389068" method="true" symbol="draw"/>
 <entry id="8388640" module="true" symbol="Lang"/>
@@ -69,16 +70,16 @@
 <entry id="19" method="true" symbol="MainLayout"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="21" symbol="set_intervals"/>
 <entry id="10" object="true" symbol="FartlekApp"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry field="true" id="24" symbol="AppName"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
+<entry id="20" method="true" symbol="uninitialized_MainMenu"/>
 <entry id="26" symbol="item_2"/>
 <entry id="25" symbol="item_1"/>
 <entry field="true" id="16" symbol="LauncherIcon"/>
 <entry id="8388646" module="true" object="true" symbol="Timer"/>
-<entry field="true" id="22" symbol="menu_label_2"/>
-<entry field="true" id="21" symbol="menu_label_1"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry field="true" id="8389065" symbol="locY"/>
@@ -93,9 +94,8 @@
 <entry id="12" object="true" symbol="FartlekMenuDelegate"/>
 <entry id="8389109" method="true" symbol="onMenuItem"/>
 <entry id="14" module="true" symbol="Layouts"/>
-<entry id="20" method="true" symbol="InputLayout"/>
-<entry field="true" id="23" symbol="prompt"/>
 <entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="23" symbol="set_on"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry id="13" method="true" symbol="timerCallback"/>
 <entry id="11" object="true" symbol="FartlekDelegate"/>
@@ -196,7 +196,7 @@
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="InputLayout" parent="Layouts">
+<functionEntry accessMode="public" name="uninitialized_MainMenu" parent="Layouts">
 <param id="dc"/>
 <documentation/>
 </functionEntry>

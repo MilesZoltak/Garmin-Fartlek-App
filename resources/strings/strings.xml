@@ -1,9 +1,12 @@
 <strings>
+	<!-- specific strings -->
     <string id="AppName">Fartlek</string>
-
-    <string id="prompt">Click the menu button</string>
-
-    <string id="menu_label_1">Item 1</string>
-    <string id="menu_label_2">Item 2</string>
-    
+	
+	<!-- Menu Strings -->
+	<string id="set_intervals">Set Intervals</string>
+	<string id="set_on">Set ON Interval</string>
+	<string id="set_off">Set OFF Interval</string>
+	
+	<!-- Activity Strings -->
+	    
 </strings>

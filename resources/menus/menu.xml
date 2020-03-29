@@ -1,4 +1,6 @@
-<menu id="MainMenu">
-    <menu-item id="item_1" label="@Strings.menu_label_1" />
-    <menu-item id="item_2" label="@Strings.menu_label_2" />
-</menu>
+<resources>
+	<menu id="MainMenu">
+	    <menu-item id="item_1" label="@Strings.set_on" />
+	    <menu-item id="item_2" label="@Strings.set_off" />
+	</menu>
+</resources>

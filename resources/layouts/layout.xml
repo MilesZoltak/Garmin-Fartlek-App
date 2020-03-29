@@ -17,7 +17,7 @@
 			color="Graphics.COLOR_BLACK"
 		/>
 	</layout>
-	<layout id="InputLayout">
-		
+	<layout id="uninitialized_MainMenu">
+		<!--  still working on this bad boy <button id="set_ints" x="center" y="center" width="fill" height="fill"/> -->
 	</layout>
 </resources>

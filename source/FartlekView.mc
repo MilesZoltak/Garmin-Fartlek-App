@@ -9,6 +9,7 @@ class FartlekView extends WatchUi.View {
 
     function initialize() {
         View.initialize();
+		
     }
 
 	//timer callback function to increment seconds var
@@ -23,7 +24,7 @@ class FartlekView extends WatchUi.View {
     	var myTimer = new Timer.Timer();
     	myTimer.start(method(:timerCallback), 1000, true);
         setLayout(Rez.Layouts.MainLayout(dc));
-        
+
         
     }
 
