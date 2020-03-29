@@ -17,7 +17,10 @@
 			color="Graphics.COLOR_BLACK"
 		/>
 	</layout>
-	<layout id="uninitialized_MainMenu">
-		<!--  still working on this bad boy <button id="set_ints" x="center" y="center" width="fill" height="fill"/> -->
+	<layout id="WelcomeScreen">
+		<label id="WaitMsg" x="center" y="center"
+			text="Please Wait..." color="Graphics.COLOR_WHITE"
+			justification="Graphics.TEXT_JUSTIFY_CENTER"
+		/>
 	</layout>
 </resources>

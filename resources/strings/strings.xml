@@ -3,9 +3,6 @@
     <string id="AppName">Fartlek</string>
 	
 	<!-- Menu Strings -->
-	<string id="set_intervals">Set Intervals</string>
-	<string id="set_on">Set ON Interval</string>
-	<string id="set_off">Set OFF Interval</string>
 	
 	<!-- Activity Strings -->
 	    

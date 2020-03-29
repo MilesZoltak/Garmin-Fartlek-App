@@ -2,8 +2,8 @@ using Toybox.WatchUi;
 using Toybox.System;
 using Toybox.Timer;
 using Toybox.Lang;
-
 var seconds = 0;	//global variable to be updated every second to track time
+var plswait = "Please Wait";	//i'm just havin some fun
 
 class FartlekView extends WatchUi.View {
 
@@ -13,19 +13,17 @@ class FartlekView extends WatchUi.View {
     }
 
 	//timer callback function to increment seconds var
-	function timerCallback() {
-		seconds++;
-		WatchUi.requestUpdate();
+	function pushTimerCallback() {
+		WatchUi.pushView(new Rez.Menus.MainMenu(), new FartlekMenuDelegate(), WatchUi.SLIDE_LEFT);
 	}
 	
     // Load your resources here
     function onLayout(dc) {
-    	//initialize the timer and set the layout
-    	var myTimer = new Timer.Timer();
-    	myTimer.start(method(:timerCallback), 1000, true);
-        setLayout(Rez.Layouts.MainLayout(dc));
+		setLayout(Rez.Layouts.WelcomeScreen(dc));	
 
-        
+    	//initialize the timer and set the layout
+    	var pushTimer = new Timer.Timer();
+    	pushTimer.start(method(:pushTimerCallback), 1200, true);
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -40,8 +38,8 @@ class FartlekView extends WatchUi.View {
     function onUpdate(dc) {
     	
     	//update the timer to reflect the value of the seconds var
-    	var totalTime = View.findDrawableById("TotalTime");
-    	totalTime.setText(Lang.format("$1$:$2$", [(seconds / 60), (seconds % 60).format("%02d")]));
+//    	var totalTime = View.findDrawableById("TotalTime");
+//    	totalTime.setText(Lang.format("$1$:$2$", [(seconds / 60), (seconds % 60).format("%02d")]));
     	
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);

@@ -1,6 +1,6 @@
 <resources>
 	<menu id="MainMenu">
-	    <menu-item id="item_1" label="@Strings.set_on" />
-	    <menu-item id="item_2" label="@Strings.set_off" />
+		<!-- I NEED TO FIGURE OUT HOW TO ALLOW FOR INPUTS AND WHATNOT -->
+		<menu-item id="set_ints" label="Set Intervals" />
 	</menu>
 </resources>

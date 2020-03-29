@@ -14,5 +14,6 @@ class FartlekMenuDelegate extends WatchUi.MenuInputDelegate {
             System.println("item 2");
         }
     }
+    
 
 }
